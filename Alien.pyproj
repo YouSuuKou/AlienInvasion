@@ -51,6 +51,7 @@
     <Folder Include="font\cascadia-code\woff2\" />
     <Folder Include="font\cascadia-code\woff2\static\" />
     <Folder Include="images\" />
+    <Folder Include="Release\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitattributes" />
@@ -299,6 +300,7 @@
     <Content Include="images\ship.bmp" />
     <Content Include="LICENSE.txt" />
     <Content Include="README.md" />
+    <Content Include="Release\release.md" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
