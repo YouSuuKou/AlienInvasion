@@ -34,6 +34,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="main.py" />
+    <Compile Include="requirements.txt" />
     <Compile Include="scoreboard.py">
       <SubType>Code</SubType>
     </Compile>

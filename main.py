@@ -112,7 +112,7 @@ class AlienInvasion:
     def _fire_bullet(self):
             """Create a new bullet and add it to the bullets group."""
             if len(self.bullets) < self.settings.bullets_allowed and not self.is_in_shooting_interval:
-                new_bullet = Bullet(self)
+                new_bullet = Bullet(self, random.choice(self.aliens.sprites()))
                 self.bullets.add(new_bullet)
                 self.is_in_shooting_interval = True
     def _update_bullets(self):
