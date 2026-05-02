@@ -13,7 +13,7 @@ class Scoreboard:
         self.stats = ai_game.stats
         # Font settings for scoring information.
         self.text_color = (30, 30, 30)
-        self.font = pygame.font.Font('./font/cascadia-code/ttf/CascadiaCode.ttf', 48)
+        self.font = pygame.font.Font('./font/CascadiaCode-Light.otf', 48)
         # Prepare the initial score image.
         self.prep_score()
         self.prep_high_score()
